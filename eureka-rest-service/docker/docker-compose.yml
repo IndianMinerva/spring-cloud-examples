@@ -1,0 +1,5 @@
+version: '2'
+services:
+  eureka-rest-service:
+    image: indianminerva/eureka-rest-service
+    network_mode: "host"
