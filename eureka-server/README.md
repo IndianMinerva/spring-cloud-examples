@@ -1,6 +1,5 @@
 ###Instructions for running
 
-- mvn clean install docker:build
-- docker tag $IMAGE_ID $DOCKER_ID_USER/eureka-server
+- mvn clean install dockerfile:build
 - docker push $DOCKER_ID_USER/eureka-rest-service
 - docker-compose -f docker/docker-compose.yml up
